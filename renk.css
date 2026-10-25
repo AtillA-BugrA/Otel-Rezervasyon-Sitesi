@@ -1,0 +1,55 @@
+
+body{
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #F3F2EB;
+}
+header{
+    display: flex;    
+    align-items:center;
+    background-color: #0B3B5B;
+    padding: 10px;
+}
+header h4{
+    padding: 5xp 5xp;
+    color: aliceblue;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+    font-size: xx-small;
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    background-color: #0B3B5B;
+    padding: 0px;
+    margin: 0px;
+    overflow:hidden;
+}
+nav{
+    margin-left: auto;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 15px 15px;
+    display: block;
+    text-align: right;
+}
+nav li{
+    float: left;
+}
+.login{
+    background-color: #0B3B5B;
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px 15px;
+    text-align:center;
+    display: flex;
+    align-items: center;
+}
+/*-----------------*/
+main{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, cursive;
+    padding: 10px;
+    margin: 10px;
+}
+
