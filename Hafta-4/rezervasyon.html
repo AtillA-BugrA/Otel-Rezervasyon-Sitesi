@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>booking</title>
+    <link rel="stylesheet" href="renk.css">
+    <script src="rezervasyon.js"></script>
+</head>
+<body>
+  
+    <header>
+        <a href="taslak.html"><img src="Screenshot 2026-10-23 210937.png" alt="Rotiva Logo" lenght="100" width="100"></a>
+        <h4><i>Her Yolculuğa Doğru Konaklama...</i></h4>
+        <nav class="navbar">
+            <ul>
+                <li><a href="taslak.html">Ana Sayfa</a></li>
+                <li><a href="oteller.html">Oteller</a></li>
+                <li><a href="#">Lokasyonlar</a></li>
+                <li><a href="hakkımızda.html">Hakkımızda</a></li>
+                <li><a href="sikayet.html">Şikayet</a></li>
+            </ul>
+        </nav>
+        <a href="login.html" class="login"><img src="152533.png" alt="login" width="50" height="50"></a>
+    </header>
+    <main>
+        <h1>Rezervasyon Yap</h1>
+        <p>Rezervasyon Bilgileri</p>
+        <div class="rezervasyon-sayfasi">
+            <section class="rezervasyon">
+                <div class="rezervasyon-bilgileri">
+                    <h3>Giriş Tarihi</h3>
+                    <p><input type="date" class="secenek" id="giris-tarihi"></p>
+                </div>
+                <div class="rezervasyon-bilgileri">
+                    <h3>Çıkış Tarihi</h3>
+                    <p><input type="date" class="secenek" id="cikis-tarihi"></p>
+                </div>
+                <div class="rezervasyon-bilgileri" id="kisi">
+                    <h3>Kişi Sayısı</h3>
+                    <p><input type="number" class="secenek" id="kisi-bar"></p>
+                </div>
+                <div class="rezervasyon-bilgileri">
+                    <h3>Oda Seçimi</h3>
+                    <p><select class="secenek" name="oda" id="oda-say">
+                        <option>Tek Kişilik</option>
+                        <option>Çift Kişilik</option>
+                        <option>Dört Kişilik</option>
+                    </select></p>
+                </div>
+                <p>Ekstra Hizmetler</p>
+                <div class="ekstra_hizmetler">
+                    <label class="ekstra-secenek" id="kahvalti-hizmeti"><input type="checkbox">Kahvaltı Hizmeti</label>
+                    <label class="ekstra-secenek" id="otopark-hizmeti"><input type="checkbox">Otopark Hizmeti</label>
+                    <label class="ekstra-secenek" id="temizlik-hizmeti"><input type="checkbox">Temizlik Hizmeti</label>
+                    
+                </div>
+                <p>İletişim Bilgileri</p>
+                <div class="iletisim-bilgileri">
+                    <p>Ad-Soyad:</p>
+                    <p><input type="text" class="secenek" id="bar"></p>
+                    <p>Telefon Numarası:</p>
+                    <p><input type="tel" class="secenek" id="bar"></p>
+                    <p>Email Adresi</p>
+                    <p><input type="email" class="secenek" id="bar"></p>
+                </div>
+                <button class="button1">Rezervasyon Oluştur</button>
+
+            </section>
+            <aside class="ozet-karti">
+                <h2>Rezervasyon Özeti</h2>
+                <div>
+                    <img src="574373976.jpg" width="90%" lenght="20px">
+                    <h3>Bosphorus Palace</h3>
+                    <p>İstanbul <hr></p>
+                    <div class="ozet-satir"><span>Kahvaltı</span><strong>1200 TL</strong></div>
+                    <div class="ozet-satir"><span>Otopark</span><strong>4500 TL</strong></div>
+                    <div class="ozet-satir"><span>Temizlik</span><strong>2500 TL</strong></div>
+                    <hr>
+                    <div class="ozet-satir"></div>
+                </div>
+            </aside>
+        </div>
+    </main>
+</body>
